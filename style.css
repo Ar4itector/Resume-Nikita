@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: normal;
+    background: #c6cbc9;
+    color: #6a6ebb;
+}
+
+a {
+    text-decoration: none;
+    background: #7b7d7b;
+    color: #fff;
+    padding: 5px 10px;
+    transition: all .2s;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+a:hover {
+    background: #4e504e;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #4a50ff;
+    margin-left: 40px;
+}
+
+.ava {
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.50);
+}
+
+
+.card {
+    max-width:500px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 2px solid white */
+}
+
+.tc {
+    text-align: center;
+}
+
+.card li {
+    list-style: none;
+}
+
+.bg-li li:nth-child(1), .bg-li li:nth-child(2), .bg-li li:nth-child(3), .bg-li li:nth-child(4) {
+    background: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 10px;
+}
+
+.bg-li li:hover:nth-child(1), .bg-li li:hover:nth-child(2), .bg-li li:hover:nth-child(3), .bg-li li:hover:nth-child(4) {
+    background: #152891;
+    color: white;
+    transition: all .2s;
+}
+
+.green-card {
+    background-color: #b3fbb3;
+    border: #b3fbb3;
+}
+
+.yellow-card {
+    background-color: #f5fbb3;
+    border: #f5fbb3;
+}
+
+.feedback {
+    background-color: #fbcfb3;
+    border: #f5fbb3;
+}
+
+#message {
+    width: 90%;
+    resize: unset;
+    /* resize:vertical; */
+}
+
+.btn {
+    background: #6377f9;
+    color: #fff;
+    padding: 5px 10px;
+    transition: all .2s;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    background: #4a59b7;
+}
+
+.vk:hover {
+    background: #0077ff;
+}
+
+.tg:hover {
+    background: #26a4e3;
+}
+
+.wp:hover {
+    background: #40e15d;
+}
+
+.vk:active {
+    background: #025ec7;
+}
+
+.tg:active {
+    background: #228fc6;
+}
+
+.wp:active {
+    background: #34b44b;
+}
+
+.table {
+    width: 100%;
+    background: #c0c0c0;
+    color: white;
+}
+
+.table th, td {
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border: 2px solid white;
+    padding-top: 5px;
+}
+
+.table th:nth-child(1), .table td:nth-child(1) {
+    background: #852929;
+}
+
+.table th:nth-child(2), .table td:nth-child(2) {
+    background: #cabf3e;
+}
+
+.table th:nth-child(3), .table td:nth-child(3) {
+    background: #29853b;
+}
+
+.lab {
+    color: #0367e1;
+    font-size: 20px;
+}
+
+.lab:hover {
+    color: #6a00ff;
+}
+
+.input {
+    border: none;
+    /* border: 2px solid #0778ea; */
+    border-bottom: 2px solid #0778ea;
+    background: none;
+    /* border-radius: 10px; */
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.input:focus {
+    /* border: 2px solid #6a00ff; */
+    border: none;
+    border-bottom: 2px solid #6a00ff;
+}
+
+.textarea {
+    border: none;
+    /* border: 2px solid #0778ea; */
+    border: 2px solid #0778ea;
+    background: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.textarea:focus {
+    border: 2px solid #6a00ff;
+    padding: 10px;
+    margin: 10px;
+}
+
+input {outline: 0 !important;}
+textarea {outline: 0 !important;}
